@@ -94,5 +94,4 @@ public class Orden {
 				+ ", usuario=" + usuario + ", detalle=" + detalle + "]";
 	}
 
-	
 }
