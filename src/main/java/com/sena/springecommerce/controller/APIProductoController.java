@@ -55,7 +55,7 @@ public class APIProductoController {
 	}
 
 	// Endpoint PUT para actualizar un producto
-	@PutMapping("/update/{Id}")
+	@PutMapping("/update/{d}")
 	public ResponseEntity<Producto> updateProduct(@PathVariable Integer id, @RequestBody Producto productDetails) {
 		Optional<Producto> producto = productoService.get(id);
 		if (!producto.isPresent()) {
